@@ -18,7 +18,7 @@ public class EventListener implements Listener {
 	public void onJoin(PlayerJoinEvent e) {
 		Player player = e.getPlayer();
 
-		if (player.hasPlayedBefore()) {
+		if (!player.hasPlayedBefore()) {
 			var plugin = MainMessages.get();
 			new BukkitRunnable() {
 

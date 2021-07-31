@@ -1,0 +1,7 @@
+name: Messages
+version: 1.0
+main: mk.plugin.messages.main.MainMessages
+commands:
+    messages:
+        description: Plugin's commands
+        permission: messages.admin

@@ -1,0 +1,34 @@
+
+auto-message:
+  cooldown: 60
+  prefix: '&2&lSKY2 >> &a&o'
+  messages:
+  - 'Làm Nhiệm vụ ngày để có Token'
+  - 'Dungeon có nhiều thứ như exp, đồ,...'
+  - 'Mở hòm có cơ hội nhận đồ xịn'
+  - 'Mất đồ do bản thân, admin không chịu trách nhiệm'
+  - 'Không nên tin tưởng người lạ, đặc biệt là wibu'
+  - 'Nạp thẻ là một cách gia tăng sức mạnh đồng thời giúp server phát triển'
+  - 'Không vào server khác, bạn có thể bị mất tài khoản'
+  - 'Có công mài sắt, có ngày nên kim'
+  - 'Ghi /ott để chơi Oẳn tù tì'
+  - 'Nạp thẻ bằng Momo rất có lợi'
+
+update:
+  server-name: 'SKYRPG'
+  version: '1.0'
+  info:
+  - 'Chính thức'
+  - 'rồi nha'
+  - 'hehe'
+
+welcome-title:
+  radius: 3
+  title:
+    - '&6!;&eChào %player%'
+    - '&6!;&eTôi biết bạn đang nóng lòng chơi Sorasky'
+    - '&6!;&eHoặc bạn muốn /is luôn'
+    - '&6!;&eĐừng vội, Sorasky có một số tính năng'
+    - '&6!;&eBạn cần phải biết thì mới có thể chơi được'
+    - '&6!;&eKhoảng 2 nhiệm vụ thôi, nhanh mà'
+    - '&6!;&eOk, ghi &f/nhiemvu &erồi chọn &fNhiệm vụ chính'

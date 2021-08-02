@@ -37,6 +37,7 @@ public class EventListener implements Listener {
 						int time = plugin.getTitles().size() * 35;
 						Bukkit.getScheduler().runTask(plugin, () -> {
 							player.addPotionEffect(new PotionEffect(PotionEffectType.SLOW, time, 10, false, false, false));
+							player.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, time, 10, false, false, false));
 						});
 
 

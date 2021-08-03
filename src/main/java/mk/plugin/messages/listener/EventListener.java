@@ -34,7 +34,7 @@ public class EventListener implements Listener {
 					if (l.distance(player.getLocation()) >= plugin.getWelcomeRadius()) {
 						this.cancel();
 
-						int time = plugin.getTitles().size() * 35;
+						int time = plugin.getTitles().size() * 55;
 						Bukkit.getScheduler().runTask(plugin, () -> {
 							player.addPotionEffect(new PotionEffect(PotionEffectType.SLOW, time, 10, false, false, false));
 							player.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, time, 10, false, false, false));

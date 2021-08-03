@@ -48,7 +48,7 @@ public class EventListener implements Listener {
 								var st = s.split(";")[1];
 								player.sendTitle(t.replace("%player%", player.getName()), st.replace("%player%", player.getName()), 0, 200, 0);
 								player.playSound(player.getLocation(), Sound.UI_BUTTON_CLICK, 1, 1);
-							}, 35L * c);
+							}, 45L * c);
 							c++;
 						}
 					}

@@ -1,5 +1,6 @@
 package mk.plugin.messages.listener;
 
+import com.destroystokyo.paper.event.player.PlayerJumpEvent;
 import com.google.common.collect.Sets;
 import mk.plugin.messages.main.MainMessages;
 import org.bukkit.Bukkit;
@@ -27,7 +28,7 @@ public class EventListener implements Listener {
 	}
 
 	@EventHandler
-	public void onJump(PlayerToggleFlightEvent e) {
+	public void onJump(PlayerJumpEvent e) {
 		var p = e.getPlayer();
 		if (freezed.contains(p.getName())) {
 			e.setCancelled(true);
